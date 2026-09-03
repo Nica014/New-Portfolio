@@ -25,12 +25,12 @@ const HomeView = () => {
         {/* Right Column */}
         <div className="space-y-6">
           <ExperienceCard />
-          <ProjectsCard />
+          <SocialLinksCard />
         </div>
 
       </div>
         <div className="mt-8 space-y-6 w-full">
-          <SocialLinksCard />
+          <ProjectsCard />
         </div>
     </section>
   );

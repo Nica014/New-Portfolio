@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <div className="max-w-full !p-0 h-full">
+    <div className="max-w-full p-0! h-full">
       <HomeView />
     </div>
   )

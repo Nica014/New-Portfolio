@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+// @ts-ignore CSS is loaded by Next.js at runtime; no TypeScript module declaration is required.
 import "./globals.css";
 import Footer from "../components/Footer";
 
@@ -10,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Allen Alipio | Software Engineer",
-  description: "Portfolio of Allen Alipio - Software Engineer & Front End Developer",
+  title: "Nica Alimurung | Front End Web Developer",
+  description: "Portfolio of Nica Alimurung - Front End Web Developer",
   icons: {
     icon: "/favicon.ico",
   },

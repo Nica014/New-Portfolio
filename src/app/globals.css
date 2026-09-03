@@ -4,7 +4,14 @@
 
   --black: #000000;
   --red: #FE1F4B;
+  --secondary: #a5a5a5;
   --white: #ffffff;
+  --border: #3a3a3a;
+  --card-bg: #1b1b1b;
+  --tag: #232323;
+  --primary-btn: #F2A93B;
+  --btn-text: #412402;
+  --tag-text: #c7c7c7;
 
 
   /* Opacity variations */
@@ -16,7 +23,14 @@
 @theme inline {
   --color-black: var(--black);
   --color-primary: var(--red);
+  --color-secondary: var(--secondary);
   --color-white: var(--white);
+  --color-border: var(--border);
+  --color-card-bg: var(--card-bg);
+  --color-tag: var(--tag);
+  --color-primary-btn: var(--primary-btn);
+  --color-btn-text: var(--btn-text);
+  --color-tag-text: var(--tag-text);
 
   /* Opacity variations */
   --color-black-5: var(--black-5);
@@ -26,8 +40,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #121212;
+    --foreground: #f2f2f2;
   }
 }
 
